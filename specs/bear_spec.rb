@@ -35,6 +35,7 @@ end
 def test_bear_eats_fish
   @bear.eat_fish(@fish2)
   assert_equal(1, @bear.stomach_contents)
+  assert_equal(0, @river.fish_count)
 end
 
 def test_bear_can_roar

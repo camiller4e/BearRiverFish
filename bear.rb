@@ -8,6 +8,7 @@ class Bear
 
 def eat_fish(fish)
   @stomach << fish
+  # @river1.delete(fish)
 end
 
 def stomach_contents

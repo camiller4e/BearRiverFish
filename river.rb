@@ -6,14 +6,16 @@ class River
   end
 
   def fish_count
-    return @fish.count()
+    @fish.count()
   end
 
   def populate_river(fish)
     @fish << fish
   end
 
+  def remove_fish(fish)
+    @river.delete(fish)
+  end
 
-
-
+  
 end
